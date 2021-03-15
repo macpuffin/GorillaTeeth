@@ -15,7 +15,7 @@
 // The characters are rarely used upper ascii, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
 
-// TEETH message start
+// PFN message start
 static unsigned char pchMessageStartMain[4] = { 0x46, 0x4a, 0x14, 0x4e };
 // Public testnet message start
 static unsigned char pchMessageStartTest[4] = { 0x4d, 0x54, 0x54, 0x44 };

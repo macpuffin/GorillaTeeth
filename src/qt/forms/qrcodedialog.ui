@@ -102,7 +102,7 @@
                </sizepolicy>
               </property>
               <property name="text">
-               <string>TEETH</string>
+               <string>PFN</string>
               </property>
               <property name="buddy">
                <cstring>lnReqAmount</cstring>

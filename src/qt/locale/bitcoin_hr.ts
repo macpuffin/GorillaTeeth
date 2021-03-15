@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About TEETH</source>
-        <translation>O TEETHu</translation>
+        <source>About PFN</source>
+        <translation>O PFNu</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;TEETH&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TEETH&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;PFN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;PFN&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 TEETH Developers
+        <source>Copyright © 2011-2013 PFN Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your TEETH addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše TEETH adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <source>These are your PFN addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ovo su vaše PFN adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TEETHS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PFNS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>UPOZORENJE: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE TEETHSE!&lt;/b&gt;
+        <translation>UPOZORENJE: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE PFNSE!&lt;/b&gt;
 Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>TEETH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TEETHs from being stolen by malware infecting your computer.</source>
+        <source>PFN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PFNs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
 </context>
 <context>
-    <name>TEETHGUI</name>
+    <name>PFNGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>TEETH Wallet</source>
-        <translation>TEETH novčanik</translation>
+        <source>PFN Wallet</source>
+        <translation>PFN novčanik</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -349,8 +349,8 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a TEETH address</source>
-        <translation>Slanje novca na TEETH adresu</translation>
+        <source>Send coins to a PFN address</source>
+        <translation>Slanje novca na PFN adresu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -379,8 +379,8 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about TEETH</source>
-        <translation>Prikaži informacije o TEETHu</translation>
+        <source>Show information about PFN</source>
+        <translation>Prikaži informacije o PFNu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for TEETH</source>
-        <translation>Promijeni postavke konfiguracije za TEETH</translation>
+        <source>Modify configuration options for PFN</source>
+        <translation>Promijeni postavke konfiguracije za PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;TEETH</source>
-        <translation>Otvori &amp;TEETH</translation>
+        <source>Open &amp;PFN</source>
+        <translation>Otvori &amp;PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the TEETH window</source>
-        <translation>Prikaži TEETH prozor</translation>
+        <source>Show the PFN window</source>
+        <translation>Prikaži PFN prozor</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>TEETH-qt</source>
-        <translation>TEETH-qt</translation>
+        <source>PFN-qt</source>
+        <translation>PFN-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to TEETH network</source>
-        <translation><numerusform>%n aktivna veza na TEETH mrežu</numerusform><numerusform>%n aktivne veze na TEETH mrežu</numerusform><numerusform>%n aktivnih veza na TEETH mrežu</numerusform></translation>
+        <source>%n active connection(s) to PFN network</source>
+        <translation><numerusform>%n aktivna veza na PFN mrežu</numerusform><numerusform>%n aktivne veze na PFN mrežu</numerusform><numerusform>%n aktivnih veza na PFN mrežu</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -611,7 +611,7 @@ Adresa:%4
     <message>
         <location filename="../optionsdialog.cpp" line="274"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Izaberite željeni najmanji dio TEETHa koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio PFNa koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="281"/>
@@ -673,8 +673,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid TEETH address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana TEETH adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PFN address.</source>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana PFN adresa.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -691,13 +691,13 @@ Adresa:%4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start TEETH on window system startup</source>
-        <translation>&amp;Pokreni TEETH kod pokretanja sustava</translation>
+        <source>&amp;Start PFN on window system startup</source>
+        <translation>&amp;Pokreni PFN kod pokretanja sustava</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start TEETH after the computer is turned on</source>
-        <translation>Automatski pokreni TEETH kad se uključi računalo</translation>
+        <source>Automatically start PFN after the computer is turned on</source>
+        <translation>Automatski pokreni PFN kad se uključi računalo</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -716,8 +716,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the TEETH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port TEETH klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the PFN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port PFN klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -1177,8 +1177,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a TEETH address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite TEETH adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PFN address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite PFN adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1626,11 +1626,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>TEETH-core</name>
+    <name>PFN-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>TEETH version</source>
-        <translation>TEETH verzija</translation>
+        <source>PFN version</source>
+        <translation>PFN verzija</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1639,8 +1639,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or TEETHd</source>
-        <translation>Pošalji komandu usluzi -server ili TEETHd</translation>
+        <source>Send command to -server or PFNd</source>
+        <translation>Pošalji komandu usluzi -server ili PFNd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1659,13 +1659,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: TEETH.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: TEETH.conf)</translation>
+        <source>Specify configuration file (default: PFN.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: PFN.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: TEETHd.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: TEETH.pid)</translation>
+        <source>Specify pid file (default: PFNd.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: PFN.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1840,8 +1840,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
-        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi TEETH Wiki)</translation>
+SSL options: (see the PFN Wiki for SSL setup instructions)</source>
+        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi PFN Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1870,8 +1870,8 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  TEETH is probably already running.</source>
-        <translation>Program ne može pristupiti direktoriju s datotekama %s. TEETH program je vjerojatno već pokrenut.</translation>
+        <source>Cannot obtain a lock on data directory %s.  PFN is probably already running.</source>
+        <translation>Program ne može pristupiti direktoriju s datotekama %s. PFN program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1895,12 +1895,12 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TEETH</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of PFN</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart TEETH to complete</source>
+        <source>Wallet needed to be rewritten: restart PFN to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,13 +1955,13 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  TEETH is probably already running.</source>
-        <translation>Program ne može koristiti port %d na ovom računalu.  TEETH program je vjerojatno već pokrenut.</translation>
+        <source>Unable to bind to port %d on this computer.  PFN is probably already running.</source>
+        <translation>Program ne može koristiti port %d na ovom računalu.  PFN program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong TEETH will not work properly.</source>
-        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, TEETH neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong PFN will not work properly.</source>
+        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, PFN neće raditi ispravno.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The TEETH developers
+// Copyright (c) 2011-2013 The PFN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -528,7 +528,7 @@ public:
 
     bool IsCoinStake() const
     {
-        // TEETH: the coin stake transaction is marked with the first output empty
+        // PFN: the coin stake transaction is marked with the first output empty
         return (vin.size() > 0 && (!vin[0].prevout.IsNull()) && vout.size() >= 2 && vout[0].IsEmpty());
     }
 
@@ -603,7 +603,7 @@ public:
         {
             if (nBlockSize == 1)
             {
-                // Transactions under TEETH are free
+                // Transactions under PFN are free
                 // (about 4500bc if made of 50bc inputs)
                 if (nBytes < 10000)
                     nMinFee = 0;
@@ -747,7 +747,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // TEETH: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // PFN: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -891,7 +891,7 @@ public:
     // network and disk
     std::vector<CTransaction> vtx;
 
-    // TEETH: block signature - signed by coin base txout[0]'s owner
+    // PFN: block signature - signed by coin base txout[0]'s owner
     std::vector<unsigned char> vchBlockSig;
 
     // memory only
@@ -960,7 +960,7 @@ public:
 
     void UpdateTime(const CBlockIndex* pindexPrev);
 
-    // TEETH: two types of block: proof-of-work or proof-of-stake
+    // PFN: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -976,7 +976,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // TEETH: get max transaction timestamp
+    // PFN: get max transaction timestamp
     int64 GetMaxTransactionTime() const
     {
         int64 maxTransactionTime = 0;
@@ -1127,10 +1127,10 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos);
     bool CheckBlock() const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64& nCoinAge) const; // TEETH: calculate total coin age spent in block
+    bool GetCoinAge(uint64& nCoinAge) const; // PFN: calculate total coin age spent in block
     bool SignBlock(const CKeyStore& keystore);
     bool CheckBlockSignature() const;
-    unsigned int GetStakeEntropyBit() const; // TEETH: entropy bit for stake modifier if chosen by modifier
+    unsigned int GetStakeEntropyBit() const; // PFN: entropy bit for stake modifier if chosen by modifier
 
 private:
     bool SetBestChainInner(CTxDB& txdb, CBlockIndex *pindexNew);
@@ -1156,12 +1156,12 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    CBigNum bnChainTrust; // TEETH: trust score of block chain
+    CBigNum bnChainTrust; // PFN: trust score of block chain
     int nHeight;
     int64 nMint;
     int64 nMoneySupply;
 
-    unsigned int nFlags;  // TEETH: block index flags
+    unsigned int nFlags;  // PFN: block index flags
     enum  
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block

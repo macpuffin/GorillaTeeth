@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The TEETH developers
+// Copyright (c) 2011-2013 The PFN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -63,7 +63,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // TEETH: synchronized checkpoint (centrally broadcasted)
+    // PFN: synchronized checkpoint (centrally broadcasted)
     uint256 hashSyncCheckpoint = 0;
     uint256 hashPendingCheckpoint = 0;
     CSyncCheckpoint checkpointMessage;
@@ -71,7 +71,7 @@ namespace Checkpoints
     uint256 hashInvalidCheckpoint = 0;
     CCriticalSection cs_hashSyncCheckpoint;
 
-    // TEETH: get last synchronized checkpoint
+    // PFN: get last synchronized checkpoint
     CBlockIndex* GetLastSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -82,7 +82,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // TEETH: only descendant of current sync-checkpoint is allowed
+    // PFN: only descendant of current sync-checkpoint is allowed
     bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
     {
         if (!mapBlockIndex.count(hashSyncCheckpoint))
@@ -241,7 +241,7 @@ namespace Checkpoints
         return false;
     }
 
-    // TEETH: reset synchronized checkpoint to last hardened checkpoint
+    // PFN: reset synchronized checkpoint to last hardened checkpoint
     bool ResetSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -363,12 +363,12 @@ namespace Checkpoints
     }
 }
 
-// TEETH: sync-checkpoint master key
+// PFN: sync-checkpoint master key
 const std::string CSyncCheckpoint::strMasterPubKey = "046598bd3c6eeacc0e801ce8dc29b8c494be72b913c87447d439e82a6d326b5b1993bbf4819d01258ddc319c0060dcca0e305a9e2d7b00ab345adb365927a96f97";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
-// TEETH: verify signature of sync-checkpoint message
+// PFN: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
     CKey key;
@@ -383,7 +383,7 @@ bool CSyncCheckpoint::CheckSignature()
     return true;
 }
 
-// TEETH: process synchronized checkpoint
+// PFN: process synchronized checkpoint
 bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
 {
     if (!CheckSignature())

@@ -1,9 +1,9 @@
 /*
- * Qt4 TEETH GUI.
+ * Qt4 PFN GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The TEETH Developers 2011-2013
+ * The PFN Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -77,7 +77,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("GorillaTeeth Wallet | Cloud Staking Available on GorillaStake.com"));
+    setWindowTitle(tr("MacPuffins Wallet | Cloud Staking Available on GorillaStake.com"));
 #ifndef Q_WS_MAC
     setWindowIcon(QIcon(":icons/toolbar"));
 #else
@@ -222,7 +222,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a TEETH address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a PFN address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -252,16 +252,16 @@ void BitcoinGUI::createActions()
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
     aboutAction = new QAction(QIcon(":/icons/toolbar"), tr("&About %1").arg(qApp->applicationName()), this);
-    aboutAction->setToolTip(tr("Show information about TEETH"));
+    aboutAction->setToolTip(tr("Show information about PFN"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for TEETH"));
+    optionsAction->setToolTip(tr("Modify configuration options for PFN"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/toolbar"), tr("Show/Hide &TEETH"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the TEETH window"));
+    toggleHideAction = new QAction(QIcon(":/icons/toolbar"), tr("Show/Hide &PFN"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the PFN window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet"), this);
@@ -353,9 +353,9 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_WS_MAC
-            setWindowIcon(QIcon(":icons/TEETH_testnet"));
+            setWindowIcon(QIcon(":icons/PFN_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/TEETH_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/PFN_testnet"));
 #endif
             if(trayIcon)
             {
@@ -414,7 +414,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("TEETH client"));
+    trayIcon->setToolTip(tr("PFN client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -441,7 +441,7 @@ void BitcoinGUI::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 #endif
 
-    notificator = new Notificator(tr("TEETH-qt"), trayIcon);
+    notificator = new Notificator(tr("PFN-qt"), trayIcon);
 }
 
 #ifndef Q_WS_MAC
@@ -505,7 +505,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to TEETH network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to PFN network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

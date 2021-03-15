@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About TEETH</source>
-        <translation>Über TEETH</translation>
+        <source>About PFN</source>
+        <translation>Über PFN</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;TEETH&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TEETH&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;PFN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;PFN&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 TEETH Developers
+        <source>Copyright © 2011-2013 PFN Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Copyright © 2011-2013 TEETH Entwickler
+        <translation>Copyright © 2011-2013 PFN Entwickler
 
 Dies ist experimentelle Software.
 
@@ -39,8 +39,8 @@ Dieses Produkt enthält Software, die vom OpenSSL Projekt zur Verwendung im Open
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your TEETH addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dies sind Ihre TEETH-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
+        <source>These are your PFN addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dies sind Ihre PFN-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -226,9 +226,9 @@ Dieses Produkt enthält Software, die vom OpenSSL Projekt zur Verwendung im Open
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TEETHS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PFNS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WARNUNG: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;ALLE IHRE TEETHS VERLIEREN&lt;/b&gt;!&lt;br&gt;&lt;br&gt;Sind Sie sich sicher, dass Sie Ihre Brieftasche verschlüsseln möchten?</translation>
+        <translation>WARNUNG: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;ALLE IHRE PFNS VERLIEREN&lt;/b&gt;!&lt;br&gt;&lt;br&gt;Sind Sie sich sicher, dass Sie Ihre Brieftasche verschlüsseln möchten?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
@@ -238,8 +238,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>TEETH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TEETHs from being stolen by malware infecting your computer.</source>
-        <translation>TEETH wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer TEETHs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
+        <source>PFN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PFNs from being stolen by malware infecting your computer.</source>
+        <translation>PFN wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer PFNs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -290,11 +290,11 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>TEETHGUI</name>
+    <name>PFNGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>TEETH Wallet</source>
-        <translation>TEETH-Brieftasche</translation>
+        <source>PFN Wallet</source>
+        <translation>PFN-Brieftasche</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -340,7 +340,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="194"/>
         <source>&amp;Receive coins</source>
-        <translation>TEETHs &amp;empfangen</translation>
+        <translation>PFNs &amp;empfangen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="195"/>
@@ -350,12 +350,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="200"/>
         <source>&amp;Send coins</source>
-        <translation>TEETHs &amp;überweisen</translation>
+        <translation>PFNs &amp;überweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a TEETH address</source>
-        <translation>TEETHs an eine TEETH-Adresse überweisen</translation>
+        <source>Send coins to a PFN address</source>
+        <translation>PFNs an eine PFN-Adresse überweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -384,8 +384,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about TEETH</source>
-        <translation>Informationen über TEETH anzeigen</translation>
+        <source>Show information about PFN</source>
+        <translation>Informationen über PFN anzeigen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -404,18 +404,18 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for TEETH</source>
-        <translation>Erweiterte TEETH-Einstellungen ändern</translation>
+        <source>Modify configuration options for PFN</source>
+        <translation>Erweiterte PFN-Einstellungen ändern</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;TEETH</source>
-        <translation>&amp;TEETH öffnen</translation>
+        <source>Open &amp;PFN</source>
+        <translation>&amp;PFN öffnen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the TEETH window</source>
-        <translation>TEETH-Fenster anzeigen</translation>
+        <source>Show the PFN window</source>
+        <translation>PFN-Fenster anzeigen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -489,13 +489,13 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>TEETH-qt</source>
-        <translation>TEETH-qt</translation>
+        <source>PFN-qt</source>
+        <translation>PFN-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to TEETH network</source>
-        <translation><numerusform>%n aktive Verbindung zum TEETH-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum TEETH-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to PFN network</source>
+        <translation><numerusform>%n aktive Verbindung zum PFN-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum PFN-Netzwerk</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -545,7 +545,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="597"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das TEETH-Netzwerk.&lt;br&gt;&lt;br&gt;Möchten Sie die Gebühr bezahlen?</translation>
+        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das PFN-Netzwerk.&lt;br&gt;&lt;br&gt;Möchten Sie die Gebühr bezahlen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="602"/>
@@ -615,7 +615,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="274"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Wählen Sie die Standard-Untereinheit, die in der Benutzeroberfläche und beim Überweisen von TEETHs angezeigt werden soll</translation>
+        <translation>Wählen Sie die Standard-Untereinheit, die in der Benutzeroberfläche und beim Überweisen von PFNs angezeigt werden soll</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="281"/>
@@ -677,8 +677,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid TEETH address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige TEETH-Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PFN address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige PFN-Adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -695,13 +695,13 @@ Adresse: %4</translation>
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start TEETH on window system startup</source>
-        <translation>TEETH beim &amp;Systemstart ausführen</translation>
+        <source>&amp;Start PFN on window system startup</source>
+        <translation>PFN beim &amp;Systemstart ausführen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start TEETH after the computer is turned on</source>
-        <translation>TEETH automatisch ausführen, wenn der Computer eingeschaltet wird</translation>
+        <source>Automatically start PFN after the computer is turned on</source>
+        <translation>PFN automatisch ausführen, wenn der Computer eingeschaltet wird</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -720,8 +720,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the TEETH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den TEETH Client-Port auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the PFN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den PFN Client-Port auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -741,7 +741,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Über einen SOCKS4-Proxy zum TEETH-Netzwerk verbinden (z.B. bei einer Verbindung über Tor)</translation>
+        <translation>Über einen SOCKS4-Proxy zum PFN-Netzwerk verbinden (z.B. bei einer Verbindung über Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1023,7 +1023,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>TEETHs überweisen</translation>
+        <translation>PFNs überweisen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1118,7 +1118,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="154"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige TEETHs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die TEETHs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige PFNs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die PFNs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
 </context>
 <context>
@@ -1181,8 +1181,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a TEETH address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>TEETH-Adresse eingeben (z.B. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PFN address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>PFN-Adresse eingeben (z.B. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1323,7 +1323,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../transactiondesc.cpp" line="224"/>
         <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte TEETHs müssen 120 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie generierte.</translation>
+        <translation>Generierte PFNs müssen 120 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie generierte.</translation>
     </message>
 </context>
 <context>
@@ -1630,11 +1630,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>TEETH-core</name>
+    <name>PFN-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>TEETH version</source>
-        <translation>TEETH Version</translation>
+        <source>PFN version</source>
+        <translation>PFN Version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1643,8 +1643,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or TEETHd</source>
-        <translation>Befehl an -server oder TEETHd senden</translation>
+        <source>Send command to -server or PFNd</source>
+        <translation>Befehl an -server oder PFNd senden</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1663,23 +1663,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: TEETH.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: TEETH.conf)</translation>
+        <source>Specify configuration file (default: PFN.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: PFN.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: TEETHd.pid)</source>
-        <translation>PID-Datei angeben (Standard: TEETHd.pid)</translation>
+        <source>Specify pid file (default: PFNd.pid)</source>
+        <translation>PID-Datei angeben (Standard: PFNd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
         <source>Generate coins</source>
-        <translation>TEETHs generieren</translation>
+        <translation>PFNs generieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Keine TEETHs generieren</translation>
+        <translation>Keine PFNs generieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
@@ -1844,9 +1844,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
+SSL options: (see the PFN Wiki for SSL setup instructions)</source>
         <translation>
-SSL Einstellungen: (siehe TEETH-Wiki für SSL Installationsanweisungen)</translation>
+SSL Einstellungen: (siehe PFN-Wiki für SSL Installationsanweisungen)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1875,8 +1875,8 @@ SSL Einstellungen: (siehe TEETH-Wiki für SSL Installationsanweisungen)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  TEETH is probably already running.</source>
-        <translation>Konnte das Datenverzeichnis %s nicht sperren. Evtl. wurde TEETH bereits gestartet.</translation>
+        <source>Cannot obtain a lock on data directory %s.  PFN is probably already running.</source>
+        <translation>Konnte das Datenverzeichnis %s nicht sperren. Evtl. wurde PFN bereits gestartet.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1900,13 +1900,13 @@ SSL Einstellungen: (siehe TEETH-Wiki für SSL Installationsanweisungen)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TEETH</source>
-        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von TEETH</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PFN</source>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von PFN</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart TEETH to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden: starten Sie TEETH zur Fertigstellung neu</translation>
+        <source>Wallet needed to be rewritten: restart PFN to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden: starten Sie PFN zur Fertigstellung neu</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1960,13 +1960,13 @@ SSL Einstellungen: (siehe TEETH-Wiki für SSL Installationsanweisungen)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  TEETH is probably already running.</source>
-        <translation>Fehler beim registrieren des Ports %d auf diesem Computer. Evtl. wurde TEETH bereits gestartet.</translation>
+        <source>Unable to bind to port %d on this computer.  PFN is probably already running.</source>
+        <translation>Fehler beim registrieren des Ports %d auf diesem Computer. Evtl. wurde PFN bereits gestartet.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong TEETH will not work properly.</source>
-        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da TEETH ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong PFN will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da PFN ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

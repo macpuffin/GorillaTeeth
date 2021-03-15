@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("TEETH");
-    case mBTC: return QString("mTEETH");
-    case uBTC: return QString::fromUtf8("μTEETH");
+    case BTC: return QString("PFN");
+    case mBTC: return QString("mPFN");
+    case uBTC: return QString::fromUtf8("μPFN");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("TEETH");
-    case mBTC: return QString("Milli-TEETH (1 / 1,000)");
-    case uBTC: return QString("Micro-TEETH (1 / 1,000,000)");
+    case BTC: return QString("PFN");
+    case mBTC: return QString("Milli-PFN (1 / 1,000)");
+    case uBTC: return QString("Micro-PFN (1 / 1,000,000)");
     default: return QString("???");
     }
 }

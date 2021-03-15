@@ -22,7 +22,7 @@
         <file alias="editpaste">res/icons/editpaste.png</file>
         <file alias="editcopy">res/icons/editcopy.png</file>
         <file alias="add">res/icons/add.png</file>
-        <file alias="TEETH_testnet">res/icons/TEETH_testnet.png</file>
+        <file alias="PFN_testnet">res/icons/PFN_testnet.png</file>
         <file alias="toolbar_testnet">res/icons/toolbar_testnet.png</file>
         <file alias="debugwindow">res/icons/debugwindow.png</file>
         <file alias="edit">res/icons/edit.png</file>
@@ -44,7 +44,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="splash">res/images/TEETH_splash.png</file>
+        <file alias="splash">res/images/PFN_splash.png</file>
         <file alias="qrcode">res/images/qrcode.png</file>
     </qresource>
     <qresource prefix="/movies">

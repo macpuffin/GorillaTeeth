@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About TEETH</source>
-        <translation>Despre TEETH</translation>
+        <source>About PFN</source>
+        <translation>Despre PFN</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;TEETH&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TEETH&lt;/b&gt; versiunea</translation>
+        <source>&lt;b&gt;PFN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;PFN&lt;/b&gt; versiunea</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 TEETH Developers
+        <source>Copyright © 2011-2013 PFN Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your TEETH addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră TEETH pentru a primi plăţi.   Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <source>These are your PFN addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele dumneavoastră PFN pentru a primi plăţi.   Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TEETHS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PFNS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATENŢIE: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE TEETH ACUMULATĂ&lt;/b&gt;!
+        <translation>ATENŢIE: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE PFN ACUMULATĂ&lt;/b&gt;!
 Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>TEETH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TEETHs from being stolen by malware infecting your computer.</source>
+        <source>PFN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PFNs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
 </context>
 <context>
-    <name>TEETHGUI</name>
+    <name>PFNGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>TEETH Wallet</source>
-        <translation>Portofel electronic TEETH</translation>
+        <source>PFN Wallet</source>
+        <translation>Portofel electronic PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -335,7 +335,7 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="194"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Primiţi TEETH</translation>
+        <translation>&amp;Primiţi PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="195"/>
@@ -345,12 +345,12 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="200"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Trimiteţi TEETH</translation>
+        <translation>&amp;Trimiteţi PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a TEETH address</source>
-        <translation>&amp;Trimiteţi TEETH către o anumită adresă</translation>
+        <source>Send coins to a PFN address</source>
+        <translation>&amp;Trimiteţi PFN către o anumită adresă</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -379,8 +379,8 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about TEETH</source>
-        <translation>Informaţii despre TEETH</translation>
+        <source>Show information about PFN</source>
+        <translation>Informaţii despre PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for TEETH</source>
-        <translation>Modifică setările pentru TEETH</translation>
+        <source>Modify configuration options for PFN</source>
+        <translation>Modifică setările pentru PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;TEETH</source>
-        <translation>Deschide &amp;TEETH</translation>
+        <source>Open &amp;PFN</source>
+        <translation>Deschide &amp;PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the TEETH window</source>
-        <translation>Afişează fereastra TEETH</translation>
+        <source>Show the PFN window</source>
+        <translation>Afişează fereastra PFN</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>TEETH-qt</source>
-        <translation>TEETH-qt</translation>
+        <source>PFN-qt</source>
+        <translation>PFN-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to TEETH network</source>
-        <translation><numerusform>%n active connections to TEETH network</numerusform><numerusform>%n active connections to TEETH network</numerusform><numerusform>%n active connections to TEETH network</numerusform></translation>
+        <source>%n active connection(s) to PFN network</source>
+        <translation><numerusform>%n active connections to PFN network</numerusform><numerusform>%n active connections to PFN network</numerusform><numerusform>%n active connections to PFN network</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -607,7 +607,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="274"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de TEETH.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de PFN.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="281"/>
@@ -669,8 +669,8 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid TEETH address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă TEETH valabilă.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PFN address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă PFN valabilă.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -687,13 +687,13 @@ Address: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start TEETH on window system startup</source>
-        <translation>&amp;S Porneşte TEETH la pornirea sistemului</translation>
+        <source>&amp;Start PFN on window system startup</source>
+        <translation>&amp;S Porneşte PFN la pornirea sistemului</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start TEETH after the computer is turned on</source>
-        <translation>Porneşte automat programul TEETH la pornirea computerului.</translation>
+        <source>Automatically start PFN after the computer is turned on</source>
+        <translation>Porneşte automat programul PFN la pornirea computerului.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -712,8 +712,8 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the TEETH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului TEETH. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the PFN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului PFN. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -733,7 +733,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Conectare la reţeaua TEETH folosind un proxy SOCKS4 (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <translation>Conectare la reţeaua PFN folosind un proxy SOCKS4 (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1015,7 +1015,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Trimite TEETH</translation>
+        <translation>Trimite PFN</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1065,7 +1065,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="99"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de TEETH</translation>
+        <translation>Confirmaţi trimiterea de PFN</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="100"/>
@@ -1110,7 +1110,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="154"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de TEETH din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de PFN din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1173,8 +1173,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a TEETH address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă TEETH (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PFN address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduceţi o adresă PFN (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1315,7 +1315,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../transactiondesc.cpp" line="224"/>
         <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele TEETH generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele PFN generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
     </message>
 </context>
 <context>
@@ -1381,7 +1381,7 @@ p, li { white-space: pre-wrap; }
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="295"/>
         <source>Mined balance will be available in %n more blocks</source>
-        <translation><numerusform>Soldul de TEETH produs va fi disponibil după încă %n bloc</numerusform><numerusform>Soldul de TEETH produs va fi disponibil după încă %n blocuri</numerusform><numerusform>Soldul de TEETH produs va fi disponibil după încă %n blocuri</numerusform></translation>
+        <translation><numerusform>Soldul de PFN produs va fi disponibil după încă %n bloc</numerusform><numerusform>Soldul de PFN produs va fi disponibil după încă %n blocuri</numerusform><numerusform>Soldul de PFN produs va fi disponibil după încă %n blocuri</numerusform></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="301"/>
@@ -1622,11 +1622,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>TEETH-core</name>
+    <name>PFN-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>TEETH version</source>
-        <translation>versiunea TEETH</translation>
+        <source>PFN version</source>
+        <translation>versiunea PFN</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1635,8 +1635,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or TEETHd</source>
-        <translation>Trimite comanda la -server sau TEETHd</translation>
+        <source>Send command to -server or PFNd</source>
+        <translation>Trimite comanda la -server sau PFNd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1655,12 +1655,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: TEETH.conf)</source>
+        <source>Specify configuration file (default: PFN.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: TEETHd.pid)</source>
+        <source>Specify pid file (default: PFNd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1836,7 +1836,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
+SSL options: (see the PFN Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1866,7 +1866,7 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  TEETH is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  PFN is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1891,12 +1891,12 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TEETH</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of PFN</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart TEETH to complete</source>
+        <source>Wallet needed to be rewritten: restart PFN to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1951,12 +1951,12 @@ SSL options: (see the TEETH Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  TEETH is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  PFN is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong TEETH will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong PFN will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>

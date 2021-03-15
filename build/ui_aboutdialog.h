@@ -34,7 +34,7 @@ public:
     QLabel *label;
     QLabel *versionLabel;
     QSpacerItem *horizontalSpacer;
-    QLabel *label_TEETH_copyright;
+    QLabel *label_PFN_copyright;
     QLabel *label_2;
     QSpacerItem *verticalSpacer;
     QDialogButtonBox *buttonBox;
@@ -86,12 +86,12 @@ public:
 
         verticalLayout_2->addLayout(horizontalLayout);
 
-        label_TEETH_copyright = new QLabel(AboutDialog);
-        label_TEETH_copyright->setObjectName(QString::fromUtf8("label_TEETH_copyright"));
-        label_TEETH_copyright->setWordWrap(true);
-        label_TEETH_copyright->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
+        label_PFN_copyright = new QLabel(AboutDialog);
+        label_PFN_copyright->setObjectName(QString::fromUtf8("label_PFN_copyright"));
+        label_PFN_copyright->setWordWrap(true);
+        label_PFN_copyright->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
-        verticalLayout_2->addWidget(label_TEETH_copyright);
+        verticalLayout_2->addWidget(label_PFN_copyright);
 
         label_2 = new QLabel(AboutDialog);
         label_2->setObjectName(QString::fromUtf8("label_2"));
@@ -124,10 +124,10 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About TEETH", 0, QApplication::UnicodeUTF8));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About PFN", 0, QApplication::UnicodeUTF8));
         label_4->setText(QString());
-        label->setText(QApplication::translate("AboutDialog", "<b>TEETH</b> version", 0, QApplication::UnicodeUTF8));
-        label_TEETH_copyright->setText(QApplication::translate("AboutDialog", "Copyright \302\251 2014 TEETH Developers", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("AboutDialog", "<b>PFN</b> version", 0, QApplication::UnicodeUTF8));
+        label_PFN_copyright->setText(QApplication::translate("AboutDialog", "Copyright \302\251 2014 PFN Developers", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("AboutDialog", "Copyright \302\251 2011-2014 PPCoin Developers\n"
 "Copyright \302\251 2009-2012 Bitcoin Developers\n"
 "\n"
